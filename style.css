@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+.item {
+    padding: 20px;
+    background: rgb(238, 153, 128);
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  align-items:center;
+}
+.grid-container img{
+ width:280px;
+ height: 160px;
+ border-radius: 12px;
+ border: thin solid;
+}
+.grid-container img:hover{
+border: thin solid whitesmoke;
+width: 272px;
+height: 162px;
+z-index: 200px;
+}
